@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script src="popUp.js"></script>
+</head>
+<body>
+    <div id = "nav">
+        <div id = "nav-wrapper">
+            <ul>
+                <li><a id = "home" href="Home.html">Home</a></li>
+                <li><a href = "Analytics.html" >Analytics</a></li>
+                <li><a href = "Onboarding.html" >Onboarding</a></li>
+                <li><a href = "Reporting.html" >Reporting</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id = "main">
+        <div id = "center">
+            <div id = "load">
+                    <form name='loadDeals'>
+                        <ul>
+                            <li><label for="CMBSDeal">CMBS Deal</label></li>
+                            <li><select name="CMBSDeal" id="Select">
+                                <option selected="" value="Default">(Select a Deal)</option>
+                                <option value="Deal 1">Deal 1</option>
+                                <option value="Deal 2">Deal 2</option>
+                                <option value="Deal 3">Deal 3</option>
+                                <option value="Deal 4">Deal 4</option>
+                                <option value="Deal 5">Deal 5</option>
+                                <option value="Deal 6">Deal 6</option>
+                                <option value="Deal 7">Deal 7</option>
+                                <option value="Deal 8">Deal 8</option>
+                                <option value="Deal 9">Deal 9</option>
+                                <option value="Deal 10">Deal 10</option>
+                                </select></li><br>
+                            <li><button id="button" type="button" onclick="openPopup()">Load</button></li>
+                        </ul>
+                    </form>
+            </div>
+            <div id = "map"></div>
+        </div> 
+    </div>
+    <table id="popup" style="width:100%" border="1">
+        <caption>CMBS Deals</caption>
+				<tr>
+                    <th>Deal Id</th>
+                    <th>Deal Name</th> 
+                    <th>Families</th>
+                    <th>Property Count</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td>Deal 1</td> 
+                    <td>10</td>
+                    <td>20</td>
+                </tr>
+        
+                <tr>
+                    <td>2</td>
+                    <td>Deal 2</td> 
+                    <td>6</td>
+                    <td>12</td>
+                </tr>
+        
+                <tr>
+                    <td>3</td>
+                    <td>Deal 3</td> 
+                    <td>18</td>
+                    <td>20</td>
+                </tr>
+        
+                <tr>
+                    <td>4</td>
+                    <td>Deal 4</td> 
+                    <td>14</td>
+                    <td>8</td>
+                </tr>
+        
+                <tr>
+                    <td>5</td>
+                    <td>Deal 5</td> 
+                    <td>11</td>
+                    <td>7</td>
+                </tr>
+    
+                <tr>
+                    <td>6</td>
+                    <td>Deal 6</td> 
+                    <td>10</td>
+                    <td>6</td>
+                </tr>
+        
+                <tr>
+                    <td>7</td>
+                    <td>Deal 7</td> 
+                    <td>10</td>
+                    <td>15</td>
+                </tr>
+        
+                <tr>
+                    <td>8</td>
+                    <td>Deal 8</td> 
+                    <td>8</td>
+                    <td>10</td>
+                </tr>
+        
+                <tr>
+                    <td>9</td>
+                    <td>Deal 9</td> 
+                    <td>9</td>
+                    <td>14</td>
+                </tr>
+        
+                <tr>
+                    <td>10</td>
+                    <td>Deal 10</td> 
+                    <td>7</td>
+                    <td>20</td>
+                </tr>
+    </table>
+</body>
+</html>

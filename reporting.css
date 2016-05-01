@@ -1,0 +1,35 @@
+#inside-nav{
+    background-color: #C0C0C0;
+    position: fixed;
+    width: 50%;
+    top: 170px;
+    margin-left: 320px;
+}
+#inside-wrapper{
+    width :100%;
+    margin-left :60px;
+}
+#inside-nav ul{
+    list-style-type: none;
+    margin :0;
+}
+#inside-nav ul li{
+    float: left;
+    display: block;
+    font-size: 20px;
+    text-align : center;
+    padding : 20px 20px;
+    font-family :sans-serif; 
+    text-decoration: none;
+}
+#open{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    margin : 10px;
+    padding: 20px;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
