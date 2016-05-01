@@ -1,0 +1,22 @@
+#onboard ul {
+    list-style-type: none;
+    margin:0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: dimgray;
+}
+#onboard li {
+    float: left;
+}
+#onboard li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    font-size :17px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+#onboard li a:hover{
+    background-color:darkgray;
+}
